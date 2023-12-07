@@ -12,28 +12,25 @@ body {
     flex-grow:1; /* Prend tous l'espasse dispo */
     height: 100%;
 }
-#topArea {
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 10%;
-    background-color: #ff5a5a;
-}
+
 
 #lefArea {
-    background-color: #5284ff ;
+    background-color: #42ad9c ;
     left: 0;
-    width: 15%;
-}
-
-#centerArea {
-    flex-grow: 1;
-    background-color: #5ade84;
-    height: 100%;
+    width: 50%;
 }
 
 #rightArea {
-    background-color: #a1703e ;
+    flex-grow: 1;
+    background-color: #a542ad ;
     left: 0;
     width: 15%;
+}
+
+#bottomArea{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    background-color: #f7c600;
 }
