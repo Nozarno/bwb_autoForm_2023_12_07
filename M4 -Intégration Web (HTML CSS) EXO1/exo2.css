@@ -31,3 +31,9 @@ body {
     background-color: #5ade84;
     height: 100%;
 }
+
+#rightArea {
+    background-color: #a1703e ;
+    left: 0;
+    width: 15%;
+}
