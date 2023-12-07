@@ -1,7 +1,33 @@
-#lef {
-    background-color: aqua ;
+html, body {
+    height: 100%;
 }
 
-#right {
-    background-color: black;
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    display: flex;
+    flex-grow:1; /* Prend tous l'espasse dispo */
+    height: 100%;
+}
+#topArea {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    background-color: #ff5a5a;
+}
+
+#lefArea {
+    background-color: #5284ff ;
+    left: 0;
+    width: 15%;
+}
+
+#centerArea {
+    flex-grow: 1;
+    background-color: #5ade84;
+    height: 100%;
 }
