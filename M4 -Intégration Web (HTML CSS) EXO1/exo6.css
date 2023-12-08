@@ -39,12 +39,23 @@ header{
 }
 
 .area-center {
+    display: flex;
+    flex-direction: column;
+}
+
+.area-center main {
+    display: grid;
     flex-grow: 1;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .area-center .pz_item {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
     background-color: #5ade84;
+    border: 1px solid white;
 }
 
 .area-center footer {
