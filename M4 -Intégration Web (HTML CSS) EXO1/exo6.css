@@ -16,10 +16,13 @@ html, body {
     width: 100vw;
 }
 
-header{
+header, .area-lef, .area-right {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+header{
     height: 10vh;
     background-color: #ff5252;
 }
@@ -33,9 +36,6 @@ header{
 .area-lef, .area-right  {
     background-color: #5a8cff;
     flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .area-center {
@@ -49,10 +49,14 @@ header{
     grid-template-columns: repeat(5, 1fr);
 }
 
-.area-center .pz_item {
+.area-center .pz_item, .area-center footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.area-center .pz_item {
+
     text-transform: uppercase;
     background-color: #5ade84;
     border: 1px solid white;
@@ -61,8 +65,6 @@ header{
 .area-center footer {
     height: 10vh;
     background-color: #ffde00;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
