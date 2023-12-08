@@ -5,19 +5,15 @@
 }
 
 html, body {
-    width: 100%;
-    height: 100%;
+
     overflow: hidden;
     color: white;
     }
 
-body * {
 
-}
 .main-container {
     display: flex;
     flex-direction: column;
-
     height: 100vh;
     width: 100vw;
 }
@@ -32,28 +28,63 @@ header{
     height: 10vh;
     flex-grow: 0;
     background-color: #840084;
-
 }
+
 nav {
     height: 4vh;
     background-color: #0000ff;
 }
 
 main {
-    flex-grow: 1;
-    max-height: 100%;
     background-color: #ffc6ce;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    flex-grow: 1;
 
 }
 
+#area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 97%;
+    width: 98%;
+
+}
+
+
+
+.area-red , .area-yellow , .area-green , .area-redwine {
+    display: grid;
+    flex-grow: 1;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid white;
+}
+
+
+.area-red {
+    background-color: red;
+}
+
+.area-yellow {
+    background-color: yellow;
+}
+
+.area-green {
+    background-color: green;
+}
+
+.area-redwine {
+    background-color: #ad3030;
+}
+
+
 .pz_item {
     display: flex;
+    flex-grow: 1;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    border: 1px solid white;
 }
 
 
