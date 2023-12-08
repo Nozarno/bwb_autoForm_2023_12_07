@@ -41,8 +41,21 @@ nav {
 
 main {
     flex-grow: 1;
+    max-height: 100%;
     background-color: #ffc6ce;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
 }
+
+.pz_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
 
 footer {
     height: 10vh;
