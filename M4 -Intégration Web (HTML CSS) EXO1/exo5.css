@@ -29,23 +29,22 @@ header, nav, main, footer {
 }
 
 header{
-    height: 4vh;
+    height: 10vh;
     flex-grow: 0;
     background-color: #840084;
 
 }
 nav {
-    height: 2vh;
+    height: 4vh;
     background-color: #0000ff;
 }
 
 main {
     flex-grow: 1;
-    margin: 2%;
-    background-color: #f7c600;
+    background-color: #ffc6ce;
 }
 
 footer {
-    height: 5vh;
+    height: 10vh;
     background-color: #c6c6c6;
 }
