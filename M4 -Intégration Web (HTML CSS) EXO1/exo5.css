@@ -11,9 +11,11 @@ html, body {
     color: white;
     }
 
+body * {
+
+}
 .main-container {
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
 
     height: 100vh;
@@ -24,18 +26,17 @@ header, nav, main, footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 0;
 }
 
 header{
     height: 4vh;
     flex-grow: 0;
-    background-color: #42aa9c;
+    background-color: #840084;
 
 }
 nav {
-    height: 20vh;
-    background-color: #9c42aa;
+    height: 2vh;
+    background-color: #0000ff;
 }
 
 main {
@@ -46,5 +47,5 @@ main {
 
 footer {
     height: 5vh;
-    background-color: #42aa9c;
+    background-color: #c6c6c6;
 }
