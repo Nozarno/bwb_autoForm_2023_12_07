@@ -18,7 +18,6 @@ html, body {
 
 em {
     color: black;
-
 }
 
 p {
@@ -87,6 +86,56 @@ nav div {
     background-color: #e1d34c;
     max-height: 50%;
     flex-grow: 1;
+    text-align: center;
+}
+
+.section2 article {
+    background-color: #c4c4c4;
+}
+
+.section2 aside {
+    background-color: #6392af;
+}
+.section2 footer {
+    background-color: #ca2a25;
+}
+
+.section2 div {
+    flex-grow: 1;
+    margin-bottom: 0.5vh;
+    margin-top: 0.5vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    height: 80%;
+    display: grid;
+    grid-template: repeat(5,1fr) / repeat(7,1fr);
+    grid-gap: 1%;
 
 }
 
+
+.section2 .texte {
+
+    grid-row: 1 / span 5;
+    grid-column: 1 / span 2;
+}
+
+.section2 .images {
+    grid-row: 1 / span 2 ;
+    grid-column: 3 / span 5;
+}
+
+.section2 .image-cliquable {
+    grid-row: 3  / span 3 ;
+    grid-column: 3 / span 2 ;
+}
+
+.section2 .texte2 {
+    grid-column: -4 / span 3;
+    grid-row: 3 / span 2;
+}
+
+.section2 footer {
+    grid-row: -2 / span 1 ;
+    grid-column: -4 / span 3 ;
+}
