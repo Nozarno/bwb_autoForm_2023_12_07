@@ -14,5 +14,112 @@ body {
     height: 100vh;
     width: 100vw;
 }
+#main {
+    display: flex;
+    flex-direction: column;
+    border: 0.15em  solid #cb2ac7;
+    flex-grow: 1;
+    position: relative;
+    max-height: 80%;
+}
+
+#main header {
+    background-color: #bdb7b8;
+    height: 5%;
+}
+
+#main nav {
+    background-color: #a1e4ff;
+    height: 20%;
+}
+
+#main #sub-nav {
+    height: 5%;
+    background-color: #eff0f4;
+}
 
 
+#hover-div {
+    border: 0.15em solid darkred;
+    position: absolute;
+    width: 60vw ;
+    height: 90%;
+    flex-grow: 1;
+    right: 20vw;
+    left: 20vw;
+    top: 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+#hover-div #header {
+    border: 0.15em solid yellow;
+    height: 25%;
+}
+#hover-div #container2 {
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1%;
+    height: 100%;
+}
+
+#hover-div #content {
+    border: 0.15em solid green;
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#hover-div #news {
+    position: absolute;
+    border: 0.15em solid blue;
+    align-self: flex-end;
+    height: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 1%;
+
+}
+#hover-div #sidebar {
+    border: 0.15em solid blue;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    align-items: center;
+}
+
+#sidebar div{
+    margin: 1%;
+    width: 98%;
+    height: 20%;
+    border: 0.15em solid purple;
+    padding-left: 0.15em;
+}
+
+#footer {
+    border: #47c3e1;
+    background-color: #aeaeae;
+    height: 20%;
+    border: 0.15em solid #4cc1db;
+    display: flex;
+    justify-content: center;
+
+}
+
+#footer #texte {
+    color: #548d93;
+    left: 0;
+    position: absolute;
+}
+
+#footer .container {
+    border: 0.15em solid #8ef730;
+    width: 60vw;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    color: #5c7153;
+
+}
